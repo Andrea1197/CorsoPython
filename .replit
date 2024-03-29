@@ -1,0 +1,8 @@
+run = "/bin/bash"
+
+[nix]
+channel = "stable-23_11"
+
+[deployment]
+run = ["sh", "-c", "/bin/bash"]
+language = 'bash'
